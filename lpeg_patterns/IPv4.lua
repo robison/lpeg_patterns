@@ -1,6 +1,7 @@
 -- IPv4
 
 local lpeg = require "lpeg"
+local strong = require "string"
 local P = lpeg.P
 local R = lpeg.R
 local Cg = lpeg.Cg

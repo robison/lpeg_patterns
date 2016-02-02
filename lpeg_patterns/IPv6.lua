@@ -1,6 +1,9 @@
 -- IPv6
 
 local tonumber = tonumber
+local lpeg = require "lpeg"
+local string = require "string"
+local table = require "table"
 local unpack = table.unpack or unpack -- luacheck: ignore 113
 
 local lpeg = require "lpeg"
